@@ -12,8 +12,11 @@
     "Space": "space",
     "(Esc|Backspace)": "back",
 
-    // map Num+X and Shift+X to X. This allows normal number input
+    // map Num+X and Shift+X to X for numbers. This allows normal number input
     "(?:Num\\+|Shift\\+)?([0-9])": "%1",
+    
+    // map X and Shift+X to X for letters. This allows normal text input
+    "(?:Shift\\+)?([A-Z])": "%1",
 
     // map some other normal buttons that might be useful
     "(?:Shift\\+)?(\\.|\\:|\\_)": "%1",
