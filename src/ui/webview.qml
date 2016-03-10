@@ -16,7 +16,7 @@ KonvergoWindow
 
   function getInitialScaleArg()
   {
-    return "?initalScale=" + webScale
+    return "?initialScale=" + webScale
   }
 
   function maxWebScale()
