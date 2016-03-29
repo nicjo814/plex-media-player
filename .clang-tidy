@@ -20,3 +20,7 @@ CheckOptions:
       value: m_
     - key: readability-identifier-naming.MemberCase
       value: camelBack
+    - key: readability-identifier-naming.Method
+      value: camelBack
+    - key: readability-identifier-naming.ClassMethod
+      value: CamelCase
